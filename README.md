@@ -19,6 +19,8 @@
 
 ## ⬇️ Download
 
+> 🔒 **For your safety, download only from this website. Third-party sources may be unsafe.**
+
 | Platform | Download | Requirements |
 |----------|----------|--------------|
 | **macOS** (Universal) | [Download .dmg](https://github.com/jortega0033/diwa-releases/releases/latest) | macOS 11+ |
@@ -70,6 +72,48 @@ API keys encrypted via OS keychain. **No data leaves your machine except to Open
 - **OpenAI API Key** — [Get one here](https://platform.openai.com/api-keys)
 - **macOS 11+** or **Windows 10+**
 - Active internet connection
+
+---
+
+## ❓ Frequently Asked Questions
+
+### 🚨 Why does my computer say the app is "Unrecognized"?
+Because we are in early Beta, we haven't bought expensive code-signing certificates yet.
+
+- **macOS:** Right-click the app icon and select **Open**. (If you double-click, it might block you.)
+- **Windows:** Click "More Info" → "Run Anyway".
+
+### 🔑 Is my API Key safe?
+Yes. We are a "Bring Your Own Key" app. Your key is stored **locally on your device** (encrypted via your OS Keychain). It is sent directly to OpenAI's servers to generate answers. It never touches our servers because **we don't have any servers**.
+
+### 🎧 Why do I need "BlackHole" on Mac?
+macOS is strict about privacy and doesn't let apps "listen" to your Zoom/Teams calls by default. **BlackHole** is a free, open-source driver that routes the audio to DIWA.
+
+**Pro Tip:** To hear the call yourself while DIWA listens, you will need to create a **Multi-Output Device** in your "Audio MIDI Setup" app. DIWA includes a guide for this!
+
+### 💰 Is it really free?
+The app is free during the Beta period (until May 1, 2026). You only pay OpenAI for the API usage, which is usually pennies per interview.
+
+---
+
+## 🎨 Interface Design
+
+### Obsidian Glass HUD
+The overlay features a **minimalist "glass panel" design** that stays out of your way:
+
+- **Floating Window** — Appears as a subtle, translucent panel above your video call
+- **Real-Time Messages** — See both interviewer questions and AI responses in a clean chat-like interface
+- **Status Indicator** — A pulsing green dot shows when DIWA is listening or processing
+- **Smart Controls** — Compact control bar at the bottom with intuitive buttons:
+  - ▶️ **Start/Stop** — Activate the session
+  - 📌 **Pin** — Keep on top of other windows
+  - 👻 **Ghost Mode** — Make even more invisible (click-through)
+  - 🏠 **Main Window** — Quick access to settings
+  - 🎤 **Mute** — Pause AI assistance
+  - 🗑️ **Clear** — Reset transcript
+  - 👁️ **Opacity Slider** — Adjust transparency (30-100%)
+
+The entire interface is designed for **under 20ms of visual attention** — glance down, grab the answer, get back to the conversation. The glass aesthetic evokes a "layer of intelligence" floating invisibly above your screen.
 
 ---
 
