@@ -5,9 +5,9 @@
 **Real-time AI coaching that floats invisibly over your screen during video interviews.**  
 *Never blank on a question again.*
 
-[![Latest Release](https://img.shields.io/github/v/release/jortega0033/diwa-releases?style=for-the-badge&color=6366f1)](https://github.com/jortega0033/diwa-releases/releases/latest)
+[![Latest Release](https://img.shields.io/github/v/release/jortega0033/diwa-releases?style=for-the-badge&color=10a37f)](https://github.com/jortega0033/diwa-releases/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/jortega0033/diwa-releases/total?style=for-the-badge&color=22c55e)](https://github.com/jortega0033/diwa-releases/releases)
-[![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows-blue?style=for-the-badge)](https://github.com/jortega0033/diwa-releases/releases/latest)
+[![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows-71717a?style=for-the-badge)](https://github.com/jortega0033/diwa-releases/releases/latest)
 
 ---
 
@@ -45,6 +45,9 @@ Real-time pipeline delivers responses fast enough to use mid-conversation. No aw
 ### 👤 Multi-Persona System
 Create personas for different roles. The AI becomes "Jake, Senior Engineer" with your background baked in.
 
+### 🎨 Custom Response Styles
+Choose from 8 built-in styles (Bullet Points, Conversational, STAR Method, etc.) or create your own custom prompt with optional "strict mode" for plain prose responses.
+
 ### 🔒 Secure & Private
 API keys encrypted via OS keychain. **No data leaves your machine except to OpenAI.** No telemetry.
 
@@ -79,6 +82,8 @@ Having issues? [Open an issue](https://github.com/jortega0033/diwa-releases/issu
 <div align="center">
 
 **Built with Electron + React + Vite**
+
+Created by [Jake Ortega](https://jakeortega.nl)
 
 Made with ❤️ for job seekers everywhere
 
