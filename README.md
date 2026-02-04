@@ -1,6 +1,6 @@
 <div align="center">
   
-# 🌐 DIWA Copilot — Your AI Interview Partner
+# 🌐 Diwa Copilot — Your AI Interview Partner
 
 **Real-time AI coaching that floats invisibly over your screen during video interviews.**  
 *Never blank on a question again.*
@@ -61,7 +61,7 @@ API keys encrypted via OS keychain. **No data leaves your machine except to Open
 |------|--------|
 | 1️⃣ | **Download & Install** — Grab the installer. No sign-up needed. |
 | 2️⃣ | **Add Your API Key** — Paste your [OpenAI key](https://platform.openai.com/api-keys). Stored locally & encrypted. |
-| 3️⃣ | **Start Your Interview** — Launch DIWA Copilot, join your call, let AI handle the rest. |
+| 3️⃣ | **Start Your Interview** — Launch Diwa Copilot, join your call, let AI handle the rest. |
 
 **Up and running in 3 minutes.**
 
@@ -86,10 +86,10 @@ Because we are in early Beta, we haven't bought expensive code-signing certifica
 ### 🔑 Is my API Key safe?
 Yes. We are a "Bring Your Own Key" app. Your key is stored **locally on your device** (encrypted via your OS Keychain). It is sent directly to OpenAI's servers to generate answers. It never touches our servers because **we don't have any servers**.
 
-### 🎧 Why do I need "BlackHole" on Mac?
-macOS is strict about privacy and doesn't let apps "listen" to your Zoom/Teams calls by default. **BlackHole** is a free, open-source driver that routes the audio to DIWA.
+### 🎧 Why do I need Screen Recording permission on Mac?
+macOS is strict about privacy and doesn't let apps capture system audio by default. Diwa Copilot uses macOS Screen Recording permission to capture system audio during calls.
 
-**Pro Tip:** To hear the call yourself while DIWA listens, you will need to create a **Multi-Output Device** in your "Audio MIDI Setup" app. DIWA includes a guide for this!
+**Pro Tip:** After enabling the permission, quit and relaunch Diwa Copilot to allow audio capture.
 
 ### 💰 Is it really free?
 The app is free during the Beta period (until May 1, 2026). You only pay OpenAI for the API usage, which is usually pennies per interview.
@@ -103,7 +103,7 @@ The overlay features a **minimalist "glass panel" design** that stays out of you
 
 - **Floating Window** — Appears as a subtle, translucent panel above your video call
 - **Real-Time Messages** — See both interviewer questions and AI responses in a clean chat-like interface
-- **Status Indicator** — A pulsing green dot shows when DIWA is listening or processing
+- **Status Indicator** — A pulsing green dot shows when Diwa is listening or processing
 - **Smart Controls** — Compact control bar at the bottom with intuitive buttons:
   - ▶️ **Start/Stop** — Activate the session
   - 📌 **Pin** — Keep on top of other windows
