@@ -32,8 +32,8 @@
 
 ## ✨ Features
 
-### 🎤 Real-Time Transcription
-Captures audio from your video call and transcribes in real-time. Works with **Zoom**, **Google Meet**, **Teams**, and more.
+### 🎤 Native System Audio Capture
+Captures system audio using native OS APIs—**no third-party drivers required**. Works with **Zoom**, **Google Meet**, **Teams**, and any app that plays audio.
 
 ### 👻 Ghost Mode
 Click-through transparency lets mouse events pass through. The overlay is **truly invisible** to screen shares.
@@ -52,6 +52,9 @@ Choose from 8 built-in styles (Bullet Points, Conversational, STAR Method, etc.)
 
 ### 🔒 Secure & Private
 API keys encrypted via OS keychain. **No data leaves your machine except to OpenAI.** No telemetry.
+
+### 🚀 Native Splash Screen
+Polished launch experience with an animated splash screen while the app initializes. No white flash or loading delays.
 
 ---
 
@@ -87,9 +90,12 @@ Because we are in early Beta, we haven't bought expensive code-signing certifica
 Yes. We are a "Bring Your Own Key" app. Your key is stored **locally on your device** (encrypted via your OS Keychain). It is sent directly to OpenAI's servers to generate answers. It never touches our servers because **we don't have any servers**.
 
 ### 🎧 Why do I need Screen Recording permission on Mac?
-macOS is strict about privacy and doesn't let apps capture system audio by default. Diwa Copilot uses macOS Screen Recording permission to capture system audio during calls.
+macOS requires Screen & System Audio Recording permission to capture audio from other apps. Diwa uses native Chromium loopback (via `MacLoopbackAudioForScreenShare`)—no third-party audio drivers like BlackHole are needed.
 
-**Pro Tip:** After enabling the permission, quit and relaunch Diwa Copilot to allow audio capture.
+**Pro Tip:** After enabling the permission, quit and relaunch Diwa Copilot to activate audio capture.
+
+### 🪟 How does audio capture work on Windows?
+Windows provides system audio through the screen share picker. When you start a session, select "Entire screen" and check the **"Share audio"** checkbox. This captures all system audio without any third-party drivers.
 
 ### 💰 Is it really free?
 The app is free during the Beta period (until May 1, 2026). You only pay OpenAI for the API usage, which is usually pennies per interview.
@@ -127,7 +133,9 @@ Having issues? [Open an issue](https://github.com/jortega0033/diwa-releases/issu
 
 **Built with Electron + React + Vite**
 
-Created by [Jake Ortega](https://jakeortega.nl)
+*Native system audio capture — no third-party drivers required*
+
+Created by [jo.](https://github.com/jortega0033)
 
 Made with ❤️ for job seekers everywhere
 
