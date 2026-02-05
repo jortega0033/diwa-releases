@@ -95,7 +95,7 @@ macOS requires Screen & System Audio Recording permission to capture audio from 
 **Pro Tip:** After enabling the permission, quit and relaunch Diwa Copilot to activate audio capture.
 
 ### 🪟 How does audio capture work on Windows?
-Windows provides system audio through the screen share picker. When you start a session, select "Entire screen" and check the **"Share audio"** checkbox. This captures all system audio without any third-party drivers.
+Windows uses native WASAPI loopback to capture system audio automatically. When you click "Start Capture", audio begins recording immediately—no screen picker or extra steps required.
 
 ### 💰 Is it really free?
 The app is free during the Beta period (until May 1, 2026). You only pay OpenAI for the API usage, which is usually pennies per interview.
