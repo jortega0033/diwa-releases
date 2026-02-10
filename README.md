@@ -1,11 +1,9 @@
-<div align="center">
-  
 # 🌐 Diwa Copilot — Your AI Interview Partner
 
 **Real-time AI coaching that floats invisibly over your screen during video interviews.**  
 *Never blank on a question again.*
 
-[![Latest Release](https://img.shields.io/github/v/release/jortega0033/diwa-copilot?style=for-the-badge&color=10a37f)](https://github.com/jortega0033/diwa-copilot/releases/latest)
+[![Version](https://img.shields.io/badge/version-1.5.4-10a37f?style=for-the-badge)](https://github.com/jortega0033/diwa-copilot/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/jortega0033/diwa-copilot/total?style=for-the-badge&color=22c55e)](https://github.com/jortega0033/diwa-copilot/releases)
 [![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows-71717a?style=for-the-badge)](https://github.com/jortega0033/diwa-copilot/releases/latest)
 
@@ -34,6 +32,18 @@
 
 ### 🎤 Native System Audio Capture
 Captures system audio using native OS APIs—**no third-party drivers required**. Works with **Zoom**, **Google Meet**, **Teams**, and any app that plays audio.
+
+- **macOS:** Automatic loopback audio capture
+- **Windows:** Native WASAPI loopback (no setup required)
+- **Smart Audio:** Mic button only appears when needed (with "FALLBACK" badge when system audio fails)
+
+### 🎭 Mock Interview Mode
+Practice before your real interview with AI-generated sessions:
+
+- **5 tailored questions** based on your role and company
+- **Live speech-to-text** as you answer each question
+- **Detailed feedback** including clarity scores (0-100), STAR method analysis, strengths, and improvement areas
+- **Session history** to track your progress over time
 
 ### 👻 Ghost Mode
 Click-through transparency lets mouse events pass through. The overlay is **truly invisible** to screen shares.
@@ -100,6 +110,17 @@ Windows uses native WASAPI loopback to capture system audio automatically. When 
 ### 💰 Is it really free?
 The app is free during the Beta period (until May 1, 2026). You only pay OpenAI for the API usage, which is usually pennies per interview.
 
+### 🎤 What are the different AI models available?
+Diwa supports multiple OpenAI models:
+
+- **GPT-4o** — Fast, multimodal flagship (recommended for most interviews)
+- **GPT-4 Turbo** — Previous generation flagship with 128K context
+- **GPT-3.5 Turbo** — Fast and affordable for simple questions
+- **Realtime API** — Native low-latency voice interaction (~200ms)
+
+### 🎭 How does Mock Interview Mode work?
+Click the "Mock Interview" button in the sidebar, select your target role and company, and Diwa will generate 5 tailored questions. Answer each question out loud, and get instant feedback on clarity, structure, and content. All sessions are saved locally so you can review your progress.
+
 ---
 
 ## 🎨 Interface Design
@@ -135,8 +156,4 @@ Having issues? [Open an issue](https://github.com/jortega0033/diwa-copilot/issue
 
 *Native system audio capture — no third-party drivers required*
 
-Created by [jo.](https://github.com/jortega0033)
-
 Made with ❤️ for job seekers everywhere
-
-</div>
