@@ -3,7 +3,7 @@
 **Real-time AI coaching that floats invisibly over your screen during video interviews.**  
 *Never blank on a question again.*
 
-[![Version](https://img.shields.io/badge/version-1.5.4-10a37f?style=for-the-badge)](https://github.com/jortega0033/diwa-copilot/releases/latest)
+[![Version](https://img.shields.io/badge/version-1.7.0-10a37f?style=for-the-badge)](https://github.com/jortega0033/diwa-copilot/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/jortega0033/diwa-copilot/total?style=for-the-badge&color=22c55e)](https://github.com/jortega0033/diwa-copilot/releases)
 [![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows-71717a?style=for-the-badge)](https://github.com/jortega0033/diwa-copilot/releases/latest)
 
